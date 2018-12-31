@@ -17,7 +17,7 @@ export default class About extends Component{
                         <p className='fw6'>About Me</p>
                         <Divider className='divider'/>
                 </div>
-                <div><img className='br3 dp mv4' alt='#' src={dp}></img></div>
+                <div><img className='br3 dp mv5' alt='#' src={dp}></img></div>
                 <div className='w-60 f4'>
                         <p>
                                 "Hi! I'm Mayank. I'm a Computer Science student at VIT, Vellore, aspiring to become a Machine Learning engineer, with a profound interest in Natural Language Processing, Computer Vision and Data Science. Apart from that, I'm a full stack Web developer and an App developer."
