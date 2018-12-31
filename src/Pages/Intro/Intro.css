@@ -1,0 +1,70 @@
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-10px);
+		-ms-transform:     translateY(-10px);
+		transform:         translateY(-10px)
+	}
+	60% {
+		-webkit-transform: translateY(-8px);
+		-ms-transform:     translateY(-8px);
+		transform:         translateY(-8px)
+	}
+}
+span,img {  
+
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+
+
+span:hover,.down {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+.down {
+    position: absolute;
+    bottom: 0;
+}
+
+span{
+  z-index: 1;
+}
+
+/* Phones */
+@media only screen and (max-width: 767px) {
+    .intro {
+      font-size: 2.4rem;
+      text-shadow: 0.5px 0.5px 30px #000000;
+    }
+
+    .intro-desc {
+        font-size: 1rem;
+    }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 768px) {
+    .intro {
+      font-size: 4rem;
+      text-shadow: 0.5px 0.5px 30px #000000;
+    } 
+
+    .intro-desc {
+        font-size: 1.32rem;
+    }
+  }

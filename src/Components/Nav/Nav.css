@@ -1,0 +1,9 @@
+.menu{
+    border-width: 0px !important;
+    
+}
+
+.div-menu{
+    position: fixed;
+    top: 0;
+}
