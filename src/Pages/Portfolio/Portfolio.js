@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Divider } from 'semantic-ui-react'
 import './Portfolio.css'
 import CardList from '../../Components/Card/CardList'
-import data from './projects'
-import img from './down.png'
+import data from './projects';
 
 export default class Portfolio extends Component{
 
@@ -17,7 +16,7 @@ export default class Portfolio extends Component{
                 <CardList data={data}/><br/><br/><br/>
 
             <div class="footer">
-            Developed by <span onClick={() => window.open('https://github.com/mayankshah1607')}><strong>Mayank</strong></span>
+            Designed and Developed by <span onClick={() => window.open('https://github.com/mayankshah1607')}><strong>Mayank</strong></span>
             </div>
             </div>
         );
