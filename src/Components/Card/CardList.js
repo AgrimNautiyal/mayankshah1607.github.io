@@ -8,7 +8,7 @@ const CardList = (props) => {
         return <Card title={user.title} desc={user.desc} link={user.link}/>
     })
     return (
-        <div className='cardholder flex flex-wrap justify-center items-center mt7 w-60'>
+        <div className='cardholder flex flex-wrap justify-center w-60'>
             {cards}
         </div>
     );
