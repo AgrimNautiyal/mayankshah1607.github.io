@@ -4,6 +4,19 @@
 }
 
 .div-menu{
+    background-color: rgba(96, 125, 139, 0.75);
     position: fixed;
-    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.ui.secondary.inverted.menu .active.item {
+    background: rgba(255,255,255,0) !important;
+    color: #fff!important;
+}
+
+.item:hover {
+    border-bottom: 2px solid white !important;
+    border-radius: 0 !important;
+    background-color: rgba(96, 125, 139, 0) !important;
 }

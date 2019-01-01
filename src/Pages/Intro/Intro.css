@@ -29,7 +29,6 @@ span,img {
   color: white;
 }
 
-
 span:hover,.down {
   cursor: pointer;
   animation-name: bounce;
@@ -58,7 +57,7 @@ span{
   }
   
   /* Desktop */
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .intro {
       font-size: 4rem;
       text-shadow: 0.5px 0.5px 30px #000000;

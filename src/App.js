@@ -5,7 +5,7 @@ import particleOptions from './particlesjs-config.json';
 import Intro from './Pages/Intro/Intro';
 import About from './Pages/About/About';
 import Portfolio from './Pages/Portfolio/Portfolio';
-
+import Nav from './Components/Nav/Nav';
 
 
 
@@ -16,6 +16,7 @@ class App extends Component {
               <Particles className='particles'
               params={particleOptions}
             />
+      <Nav/>
       <Intro/>
       <About/>
       <Portfolio/>

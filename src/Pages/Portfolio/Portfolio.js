@@ -9,7 +9,7 @@ export default class Portfolio extends Component{
     render(){
         return(
             <div id='portfolio' className='flex flex-column white items-center container'>
-                <div className='header mb4 mt6'>
+                <div className='header mb4 mt5'>
                         <p className='fw6'>My Portfolio</p>
                         <Divider className='divider'/>
                 </div>

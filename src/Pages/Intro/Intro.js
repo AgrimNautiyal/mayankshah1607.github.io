@@ -11,7 +11,7 @@ export default class Intro extends Component{
 
     render(){
         return(
-        <div className='flex flex-column items-center justify-center items-center vh-100'>
+        <div id='home' className='flex flex-column items-center justify-center items-center vh-100'>
             <div className='white fw6 intro mb4'>Mayank Shah</div>
             <div className='white fw5 mb4 intro-desc'>Machine Learning Engineer | Full Stack Developer</div>
             <div className='flex flex-row'>

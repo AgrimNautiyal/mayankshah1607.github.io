@@ -11,7 +11,7 @@ const data = [
     },
     {
         title: "Demographical Classification",
-        desc: "A Computer Vision based webapp that preficts the age,sex and nationality of a person given their picture",
+        desc: "A Computer Vision based webapp that predicts the age,sex and nationality of a person given their picture",
         link: "https://github.com/mayankshah1607/demographic-classification-web-app"
     },
     {

@@ -1,41 +1,3 @@
-
-@keyframes bounce {
-	0%, 100%, 20%, 50%, 80% {
-		-webkit-transform: translateY(0);
-		-ms-transform:     translateY(0);
-		transform:         translateY(0)
-	}
-	40% {
-		-webkit-transform: translateY(-10px);
-		-ms-transform:     translateY(-10px);
-		transform:         translateY(-10px)
-	}
-	60% {
-		-webkit-transform: translateY(-8px);
-		-ms-transform:     translateY(-8px);
-		transform:         translateY(-8px)
-	}
-}
-.dimg {  
-
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  color: white;
-
-  cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
-
-    position: absolute;
-    bottom: 0;
-}
-
 .container{
     position: relative;
 }
@@ -52,27 +14,12 @@
 }
 
 
-/* Desktop Tablets */
-@media only screen and (min-width: 768px) {
 
-    .header>p{
-        font-size: 6vh;
-    }
- 
-    .dp{
-        width: 30vh;
-    }
-
-    p{
-        font-size: 3vh;
-    }
-
-}
 
 /* Phones */
 @media only screen and (max-width: 767px) {
     .header>p{
-        font-size: 4vh;
+        font-size: 2.4rem !important;
     }
 
     .dp{
@@ -80,6 +27,23 @@
     }
 
     p{
-        font-size: 2vh;
+        font-size: 1.2rem;
     }
+}
+
+/* Desktop Tablets */
+@media only screen and (min-width: 768px) {
+
+    #this{
+        font-size: 3rem !important;
+    }
+ 
+    .dp{
+        width: 30vh;
+    }
+
+    p{
+        font-size: 1.12rem;
+    }
+
 }
