@@ -6,6 +6,7 @@
     position: relative;
     top: 0;
     text-shadow: 0.5px 0.5px 30px #000000;
+    margin-top: 9vh;
 }
 .divider{
     border-top: 2px solid rgb(255, 255, 255) !important;
@@ -18,8 +19,8 @@
 
 /* Phones */
 @media only screen and (max-width: 767px) {
-    .header>p{
-        font-size: 2.4rem !important;
+    #this{
+        font-size: 3vh !important;
     }
 
     .dp{
@@ -27,7 +28,7 @@
     }
 
     p{
-        font-size: 1.2rem;
+        font-size: 1.8vh;
     }
 }
 
@@ -35,7 +36,7 @@
 @media only screen and (min-width: 768px) {
 
     #this{
-        font-size: 3rem !important;
+        font-size: 6vh !important;
     }
  
     .dp{

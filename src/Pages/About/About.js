@@ -12,7 +12,7 @@ export default class About extends Component{
     render(){
         return(
                 <div id='about' className='flex flex-column white items-center justify-center vh-100 items-center container'>
-                <div className='header mt5 dummy'>
+                <div className='header dummy'>
                         <p id='this' className='fw6'>About Me</p>
                         <Divider className='divider'/>
                 </div>
@@ -22,7 +22,6 @@ export default class About extends Component{
                                 "Hi! I'm Mayank. I'm a Computer Science student at VIT, Vellore, aspiring to become a Machine Learning engineer, with a profound interest in Natural Language Processing, Computer Vision and Data Science. Apart from that, I'm a full stack Web developer and an App developer."
                         </p>
                 </div>
-                {/* <img className='dimg' src={img} alt='#' onClick={() => this.scroll()}></img> */}
                 </div>
         );
     }

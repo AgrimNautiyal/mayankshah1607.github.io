@@ -6,7 +6,7 @@ export default class Intro extends Component{
 
     scroll = () =>{
         var element = document.getElementById("about");
-        element.scrollIntoView({behavior: 'smooth'})
+        element.scrollIntoView({block: 'start',behavior: 'smooth'})
     }
 
     render(){
