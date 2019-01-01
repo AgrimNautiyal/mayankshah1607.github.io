@@ -6,7 +6,7 @@ const data = [
     },
     {
         title: "Deep Learning for Music Composition",
-        desc: "A webapp that uses Deep Learning in the backend to generate song lyrics linke Maroon 5.",
+        desc: "A webapp that uses Deep Learning in the backend to generate song lyrics like Maroon 5.",
         link: "https://github.com/mayankshah1607/Deep-Learning-Lyrics-Generator"
     },
     {
