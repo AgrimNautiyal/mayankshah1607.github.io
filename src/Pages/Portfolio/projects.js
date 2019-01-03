@@ -42,7 +42,7 @@ const data = [
     {
         title: "Predicting Product ratings",
         desc: "Implementation of sentiment analysis on amazon product reviews to predict product ratings.",
-        link: "https://github.com/mayankshah1607/Generative-Adversarial-Networks-MNIST"
+        link: "https://github.com/mayankshah1607/Product-Ratings-Prediction"
     },
     {
         title: "CNN Image classification",
