@@ -19,7 +19,7 @@ export default class About extends Component{
                 <div><img className='br3 dp mv5' alt='#' src={dp}></img></div>
                 <div className='w-70 f4'>
                         <p>
-                                "Hi! I'm Mayank. I'm a Computer Science student at VIT, Vellore, aspiring to become a Machine Learning engineer, with a profound interest in Natural Language Processing, Computer Vision and Data Science. Apart from that, I'm a full stack Web developer and an App developer."
+                                "Hi! I'm Mayank - a Computer Science student at VIT, Vellore, aspiring to become a Machine Learning engineer, with a profound interest in Natural Language Processing, Computer Vision and Data Science. Apart from that, I'm a full stack deveoper and an open source ethusiast."
                         </p>
                 </div>
                 </div>

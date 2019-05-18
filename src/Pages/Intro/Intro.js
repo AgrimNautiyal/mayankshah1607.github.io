@@ -9,11 +9,56 @@ export default class Intro extends Component{
         element.scrollIntoView({block: 'start',behavior: 'smooth'})
     }
 
+    componentDidMount(){
+        const words = ["Machine Learning Engineer","Software Developer","Open Source Ethusiast"];
+        let i = 0;
+        let timer;
+
+        function typingEffect() {
+            let word = words[i].split("");
+            var loopTyping = function() {
+                if (word.length > 0) {
+                    document.getElementById('word').innerHTML += word.shift();
+                } else {
+                    setTimeout(deletingEffect,500);
+                    return false;
+                };
+                timer = setTimeout(loopTyping, 100);
+            };
+            loopTyping();
+        };
+
+        function deletingEffect() {
+            
+            let word = words[i].split("");
+            var loopDeleting = function() {
+                if (word.length > 0) {
+                    word.pop();
+                    document.getElementById('word').innerHTML = word.join("");
+                } else {
+                    if (words.length > (i + 1)) {
+                        i++;
+                    } else {
+                        i = 0;
+                    };
+                    typingEffect();
+                    return false;
+                };
+                timer = setTimeout(loopDeleting, 50);
+            };
+            loopDeleting();
+        };
+
+        typingEffect();
+    }
+
     render(){
         return(
         <div id='home' className='flex flex-column items-center justify-center items-center vh-100'>
             <div className='white fw6 intro mb4'>Mayank Shah</div>
-            <div className='white fw5 mb4 intro-desc'>Machine Learning Engineer | Full Stack Developer</div>
+            <div class="flex">
+	            <p class="header-sub-title" id="word"> </p><p class="header-sub-title blink">|</p>
+            </div>
             <div className='flex flex-row'>
             <span onClick={() => window.open('https://www.facebook.com/mayank.shah1607')} 
             class="socicon-facebook white pa2 bw1 ba br4 ma2"></span>

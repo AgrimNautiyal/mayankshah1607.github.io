@@ -20,6 +20,11 @@ const data = [
         link: "https://github.com/mayankshah1607/Named-Entity-recognition-LSTM"
     },
     {
+        title: "Node Boiler",
+        desc: "A simple and flexible plug-and-play CLI tool that can automate boilplate code generation for your next RESTful API built with NodeJS.",
+        link: "https://github.com/mayankshah1607/node-boiler"
+    },
+    {
         title: "Q-Learning for Networks",
         desc: "A research and implementation on how Q-Learning can be used to optimize packet switching networks",
         link: "https://github.com/mayankshah1607/Q-Learning-for-Network-Routing"

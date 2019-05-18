@@ -67,3 +67,19 @@ span{
         font-size: 1.32rem;
     }
   }
+
+  .blink {
+    animation: blink 0.5s infinite;
+  }
+  @keyframes blink{
+    to { opacity: .0; }
+  }
+  .flex {
+    display: flex;
+  }
+  .header-sub-title {
+    color: #fff;
+    font-family: "Courier";
+    font-size: 20px;
+    padding: 0.1em;
+  }
