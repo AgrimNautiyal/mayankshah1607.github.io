@@ -10,14 +10,10 @@ export default class Portfolio extends Component{
         return(
             <div id='portfolio' className='flex flex-column white items-center container'>
                 <div className='header mb4'>
-                        <p className='fw6'>My Portfolio</p>
+                        <p className='fw6'>Portfolio</p>
                         <Divider className='divider'/>
                 </div>
-            <CardList data={data}/><br/><br/><br/>
-
-            <div class="footer">
-            Designed and Developed by <span onClick={() => window.open('https://github.com/mayankshah1607')}><strong>Mayank</strong></span>
-            </div>
+            <CardList mode='Find out!' data={data}/><br/><br/><br/>
             </div>
         );
     }

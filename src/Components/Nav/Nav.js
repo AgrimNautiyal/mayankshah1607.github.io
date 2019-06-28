@@ -22,13 +22,18 @@ export default class Nax extends Component{
                 onClick={this.handleItemClick}
               />
               <Menu.Item
-                name='about'
-                active={activeItem === 'about'}
+                name='portfolio'
+                active={activeItem === 'portfolio'}
                 onClick={this.handleItemClick}
               />
               <Menu.Item
-                name='portfolio'
-                active={activeItem === 'portfolio'}
+                name='blog'
+                active={activeItem === 'blog'}
+                onClick={this.handleItemClick}
+              />
+              <Menu.Item
+                name='resume'
+                active={activeItem === 'blog'}
                 onClick={this.handleItemClick}
               />
               </Menu.Menu>

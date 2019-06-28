@@ -6,7 +6,7 @@ import Intro from './Pages/Intro/Intro';
 import About from './Pages/About/About';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Nav from './Components/Nav/Nav';
-
+import Blog from './Pages/Blog/Blog';
 
 
 class App extends Component {
@@ -18,8 +18,9 @@ class App extends Component {
             />
       <Nav/>
       <Intro/>
-      <About/>
+      {/* <About/> */}
       <Portfolio/>
+      <Blog/>
       </div>
     );
   }

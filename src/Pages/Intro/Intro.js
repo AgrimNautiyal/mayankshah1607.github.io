@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import './Intro.css';
 import down from './down.png'
+import Typed from 'typed.js';
 
 export default class Intro extends Component{
 
     scroll = () =>{
-        var element = document.getElementById("about");
+        var element = document.getElementById("portfolio");
         element.scrollIntoView({block: 'start',behavior: 'smooth'})
     }
 
     componentDidMount(){
-        const words = ["Machine Learning Engineer","Software Developer","Open Source Ethusiast"];
+        const words = ["Software Developer","Machine Learning","DevOps","Open Source Ethusiast"];
         let i = 0;
         let timer;
 
@@ -57,7 +58,7 @@ export default class Intro extends Component{
         <div id='home' className='flex flex-column items-center justify-center items-center vh-100'>
             <div className='white fw6 intro mb4'>Mayank Shah</div>
             <div class="flex">
-	            <p class="header-sub-title" id="word"> </p><p class="header-sub-title blink">|</p>
+	            <p class="header-sub-title" id="word"></p><p class="header-sub-title blink">|</p>
             </div>
             <div className='flex flex-row'>
             <span onClick={() => window.open('https://www.facebook.com/mayank.shah1607')} 

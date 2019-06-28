@@ -10,6 +10,11 @@ const data = [
         link: "https://github.com/mayankshah1607/Deep-Learning-Lyrics-Generator"
     },
     {
+        title: "Enigma Microservices",
+        desc: "Enigma backend developed in as a microservice architecture using golang",
+        link: "https://github.com/mayankshah1607/Enigma-Microservices"
+    },
+    {
         title: "Demographical Classification",
         desc: "A Computer Vision based webapp that predicts the age,sex and nationality of a person given their picture",
         link: "https://github.com/mayankshah1607/demographic-classification-web-app"
@@ -33,11 +38,6 @@ const data = [
         title: "Robotic Arm",
         desc: "A Robotic arm that uses a combination of Machine Learning and Electronics, that can replicate human actions.",
         link: "#"
-    },
-    {
-        title: "Feature Selection for Machine Learning",
-        desc: "A tutorial on how we can use Backward elemination to optimize Machine learning algorithms.",
-        link: "https://medium.com/@mayankshah_85820/machine-learning-feature-selection-with-backward-elimination-955894654026"
     },
     {
         title: "GAN on MNIST dataset",
