@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Intro.css';
 import down from './down.png'
-import Typed from 'typed.js';
 
 export default class Intro extends Component{
 
