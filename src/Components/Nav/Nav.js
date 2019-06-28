@@ -5,6 +5,10 @@ import './Nav.css';
 export default class Nax extends Component{
     state = { activeItem: '' }
 
+    openResume = () => {
+      window.open("https://drive.google.com/file/d/1Nr3zS2T5he8QcQsNTS6oB9-jN0eWTblb/view?usp=sharing")
+    }
+
     handleItemClick = (e, { name }) => {
       this.setState({ activeItem: name })
       var element = document.getElementById(name);
@@ -34,7 +38,7 @@ export default class Nax extends Component{
               <Menu.Item
                 name='resume'
                 active={activeItem === 'blog'}
-                onClick={this.handleItemClick}
+                onClick={this.openResume}
               />
               </Menu.Menu>
             </Menu>
