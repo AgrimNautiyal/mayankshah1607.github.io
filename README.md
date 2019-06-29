@@ -1,4 +1,2 @@
-# personal_website
-This is my personal website.
-
-Website is up and running at www.mayankshah.in
+# My Website
+This repository contains the code to my personal website made using ReactJS. Check it out [here](www.mayankshah.in)
