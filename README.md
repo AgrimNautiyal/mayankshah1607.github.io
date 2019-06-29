@@ -3,3 +3,11 @@ This repository contains the code to my personal website made using ReactJS. Che
 
 ## Demo
 ![demo](demo/demo.gif)
+
+## Getting started
+1)  ```
+    $ git clone https://github.com/mayankshah1607/personal_website.git
+    ```
+2)  ```
+    cd website
+    ```
