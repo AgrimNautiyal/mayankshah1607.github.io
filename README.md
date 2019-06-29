@@ -22,6 +22,7 @@ This repository contains the code to my personal website made using ReactJS. Che
 5) Open your favourite text editor, and begin developing by editing contents inside `/src`!
 
 > To add more projects, simply edit `src/Pages/Portfolio/projects.js`
+
 > To add more blogs, simple edit `src/Pages/Blog/bloglist.js`
 
 ## License
