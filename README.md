@@ -1,4 +1,5 @@
 # My Website
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mayankshah1607/website/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 This repository contains the code to my personal website made using ReactJS. Check it out [here](www.mayankshah.in)
 
 ## Demo
