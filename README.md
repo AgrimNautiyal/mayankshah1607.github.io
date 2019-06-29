@@ -11,3 +11,10 @@ This repository contains the code to my personal website made using ReactJS. Che
 2)  ```
     cd website
     ```
+3)  ```
+    npm install
+    ```
+4) ```
+    npm start
+    ```
+5) Open your favourite text editor, and begin developing by editing contents inside `/src`!
