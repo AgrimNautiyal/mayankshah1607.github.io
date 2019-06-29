@@ -18,3 +18,6 @@ This repository contains the code to my personal website made using ReactJS. Che
     npm start
     ```
 5) Open your favourite text editor, and begin developing by editing contents inside `/src`!
+
+## License
+[MIT](LICENSE.md)
