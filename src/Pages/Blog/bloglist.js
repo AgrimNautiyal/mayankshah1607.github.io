@@ -17,7 +17,7 @@ const data = [
     },
     {
         title: "Generating NodeJS boilerplate",
-        desc: "A article explaining demonstrating an npm module I developed - NodeBoiler",
+        desc: "A article demonstrating an npm module I developed during my free time - NodeBoiler",
         link: "https://dev.to/mayankshah1607/generating-boiler-plate-code-for-nodejs-rest-apis-fpb"
     }
     
