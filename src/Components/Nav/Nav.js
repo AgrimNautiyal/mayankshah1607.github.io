@@ -6,7 +6,7 @@ export default class Nax extends Component{
     state = { activeItem: '' }
 
     openResume = () => {
-      window.open("https://drive.google.com/file/d/1Nr3zS2T5he8QcQsNTS6oB9-jN0eWTblb/view?usp=sharing")
+      window.open("https://drive.google.com/file/d/18TO9IxS5Q5si-ahJZt98EqpvmwgWVrPk/view?usp=sharing")
     }
 
     handleItemClick = (e, { name }) => {
