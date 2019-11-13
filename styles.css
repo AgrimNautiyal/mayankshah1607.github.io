@@ -32,7 +32,6 @@ footer{
     left: 0;
     right: 0;
     margin: auto;
-    margin-bottom: 8px;
 }
 
 .social {
@@ -73,4 +72,13 @@ a:visited {
 .blog-item {
     padding-bottom: 1em;
     border-bottom: 1px solid #989898;
+}
+
+.project-tag-link {
+    color: #07a !important;
+    text-decoration: underline !important;
+}
+
+.project-tag-link:visited {
+    color: #951352;
 }

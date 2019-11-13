@@ -10,15 +10,35 @@
     <title>Mayank Shah | Projects</title>
 </head>
 <body>
-    <div id="blog">
+    <div id="projects">
         <span style="margin: 0;" class="nav-item">
                 <span style="font-size: 1.2em">&#8617;</span>
                 <strong><a href="/" class="navlink"> BACK</a></strong>
             </span>
             <h1>My Projects</h1>
-            <div id="project-list"></div>
-            <p><em>This page is under construction</em></p>
+            <div id="projects-list"></div>
         </div>
     </div>
+    <script type="text/javascript">
+        $("#projects").ready(function(){
+                var req = new XMLHttpRequest();
+                req.onreadystatechange = function(){
+                    if (req.readyState == 4 && req.status == 200) {
+                        var blogs = JSON.parse(this.responseText).projects;
+                        var blog_list = document.getElementById("projects-list");
+                        blogs.forEach(function(item) {
+                            blog_list.innerHTML += `
+                            <div class="blog-item">
+                                <h2><a target="_blank" href="${item.url}">${item.title}</a></h2>
+                                <p>${item.description}</p>
+                            </div>
+                            `
+                        }) 
+                    }
+                }
+                req.open("GET","/static/user_data.json");
+                req.send();
+        })
+    </script>
 </body>
 </html>
