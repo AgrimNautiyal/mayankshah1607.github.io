@@ -1,2 +1,2 @@
 # My Website
-:airplane: A simple and light weight personal website I developed to showcase my Portfolio 
+A simple, light-weight and neat website to showcase my portfolio
