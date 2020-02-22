@@ -48,6 +48,10 @@ footer{
     margin-right: 24px;
 }
 
+.nav-item a {
+    text-decoration: none;
+}
+
 a {
     color: #07a;
 }
@@ -81,4 +85,17 @@ a:visited {
 
 .project-tag-link:visited {
     color: #951352;
+}
+
+.social {
+    color: #454545;
+}
+
+#profile a{
+    text-decoration: none;
+}
+
+#profile a:visited{
+    text-decoration: none;
+    color: #454545;
 }
